@@ -2,10 +2,11 @@
   "nombre" : " CARLOS-BOT " ,
   "version" : " 1.0.0 " ,
   "descripcion": " Bot Whasap "
+  "main": "carlos.js"
   "scripts" : {
-  "start" : node carlos.js"
+  "start" : "node carlos.js"
 },
 "dependencies" : {
-  "@adiwajshing/baileys" : ^3.4.1"
+  "@adiwajshing/baileys" : "^3.4.1"
  }
 }
