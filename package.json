@@ -1,5 +1,5 @@
 //crear un archivo Json para guardar información: ID del cliente, Token y Keys del cliente y del SERVER. 
- ​        ​fs​.​existsSync​(​'./Valentingp1918.json'​)​ ​&&​ ​CARLOS-BOT.​loadAuthInfo​(​'./Valentingp1918.json'​) 
+ fs.existsSync('./Valentingp1918.json') && CARLOS-BOT.loadAuthInfo​(​'./Valentingp1918.json'​) 
   
  ​//Conectando o reconectando 
  ​        ​CARLOS-BOT​.​on​(​'connecting'​,​ ​(​)​ ​=>​ ​{ 
