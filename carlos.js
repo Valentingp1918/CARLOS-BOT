@@ -1,8 +1,14 @@
-const { WAConnection } =
-      require(´@adiwajshing/baileys`);
-      conts fs = require (`fs`)
-      asyn funtion iniciar ( ) {
-      const car = new WAConnection ( )
-      car.logger.level = "Advertir" 
-      //llamar al codigo QR
-      car. on ('qr', ( c) =>{
+const { WAConnection,
+       MessageType } = require ('@adiwajshing/baileys'); 
+ const fs = require ('fs'); 
+ const prefix ='.' 
+  
+ async function iniciar () {  
+       const CARLOS-BOT=new 
+       WAConnection() 
+ //Aquí el "client" lo pueden cambiar a su gusto. Pero si cambian, tendrán que cambiar todos los "client" por el cambio que hicieron. 
+      CARLOS-BOT.logger.level='warn' 
+  
+ //llamar al código QR 
+        CARLOS-BOT.on('qr',() => { 
+     }) 
