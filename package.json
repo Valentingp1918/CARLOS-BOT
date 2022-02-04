@@ -1,0 +1,12 @@
+{
+ "name":"CARLOS-BOT",
+ "version": "1.0.0",
+ "descripction": " ",
+ "main": "axe.js",
+ "scrips": "node axe.js",
+ },
+ "dependencies": {
+   "@adiwajshing/baileys": "^3.4.1"
+   }
+ }
+ 
